@@ -11,7 +11,7 @@
   {% for episode in site.episodes %}
     {% if episode.start %}{% assign multiday = true %}{% break %}{% endif %}
   {% endfor %}
-  {% assign current = site.540 %}
+  {% assign current = site.0900 %}
 
   <table class="table table-striped">
   <tr>
@@ -33,7 +33,7 @@
           <td class="col-md-7"></td>
         </tr>
       {% endif %}
-      {% assign current = site.540 %} {% comment %}Re-set start time of this episode to general daily start time {% endcomment %}
+      {% assign current = site.0900 %} {% comment %}Re-set start time of this episode to general daily start time {% endcomment %}
     {% endif %}
     {% assign hours = current | divided_by: 60 %}
     {% assign minutes = current | modulo: 60 %}
