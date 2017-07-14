@@ -1,5 +1,5 @@
 ---
-title: "Running and Quitting"
+title: "Running and Quitting with Jupyter Notebook"
 teaching: 15
 exercises: 0
 questions:
