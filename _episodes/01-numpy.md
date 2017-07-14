@@ -1,3 +1,4 @@
+{% assign start = true %}
 ---
 title: Analyzing Patient Data
 teaching: 30
