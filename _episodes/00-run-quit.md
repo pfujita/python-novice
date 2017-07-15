@@ -1,7 +1,7 @@
 ---
 start: true
 title: "Running Python Programs with Jupyter Notebook"
-teaching: 15
+teaching: 5
 exercises: 0
 questions:
 - "How can I run Python programs?"
