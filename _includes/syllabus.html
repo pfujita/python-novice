@@ -24,9 +24,9 @@
     {% if episode.start %} {% comment %} Starting a new day? {% endcomment %}
       {% assign day = day | plus: 1 %}
       {% if day > 1 %} {% comment %} If about to start day 2 or later, show finishing time for previous day {% endcomment %}
-        {% assign current = 540 %} {% comment %}Re-set start time of this episode to general daily start time {% endcomment %}
         {% assign hours = current | divided_by: 60 %}
         {% assign minutes = current | modulo: 60 %}
+        {% assign current = 540 %} {% comment %}Re-set start time of this episode to general daily start time {% endcomment %}
         <tr>
           {% if multiday %}<td class="col-md-1"></td>{% endif %}
           <td class="{% if multiday %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>
