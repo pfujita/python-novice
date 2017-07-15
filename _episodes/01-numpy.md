@@ -803,9 +803,10 @@ the graphs will actually be squeezed together more closely.)
 > To save your plot to a file (pdf, jpg, etc) you can use a feature in matplot called 
 > [savefig] (http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.savefig). To save
 > your plots to a pdf file called 'testfig.pdf' add this line to your code:
-~~~
-matplotlib.pyplot.savefig('testfig.pdf')
-~~~
+>
+> ~~~
+> matplotlib.pyplot.savefig('testfig.pdf')
+> ~~~
 {: .python}
 {: .callout}
 > ## Scientists Dislike Typing
