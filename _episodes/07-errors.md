@@ -1,4 +1,5 @@
 ---
+start: true
 title: Errors and Exceptions
 teaching: 30
 exercises: 0
