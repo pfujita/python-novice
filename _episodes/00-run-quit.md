@@ -1,4 +1,5 @@
 ---
+start: true
 title: "Running Python Programs with Jupyter Notebook"
 teaching: 15
 exercises: 0
