@@ -800,6 +800,15 @@ and that we want a tight layout.
 if we leave out that call to `fig.tight_layout()`,
 the graphs will actually be squeezed together more closely.)
 
+> ## Save Your Plot 
+> To save your plot to a file (pdf, jpg, etc) you can use a feature in matplot called 
+> [savefig] (http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.savefig). To save
+> your plots to a pdf file called 'testfig.pdf' add this line to your code:
+~~~
+matplotlib.pyplot.savefig('testfig.pdf')
+~~~
+{: .python}
+{: .callout}
 > ## Scientists Dislike Typing
 >
 > We will always use the syntax `import numpy` to import NumPy.
