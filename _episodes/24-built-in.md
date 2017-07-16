@@ -1,5 +1,5 @@
 ---
-title: "BONUS: Built-in Functions and Help"
+title: "EXTRA: Built-in Functions and Help"
 teaching: 0
 exercises: 0
 questions:
