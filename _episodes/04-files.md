@@ -1,4 +1,5 @@
 ---
+start: true
 title: Analyzing Data from Multiple Files
 teaching: 20
 exercises: 0
