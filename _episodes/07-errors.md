@@ -1,5 +1,5 @@
 ---
-title: EXTRA: Errors and Exceptions
+title: "EXTRA: Errors and Exceptions"
 teaching: 30
 exercises: 0
 questions:

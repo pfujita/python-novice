@@ -1,5 +1,5 @@
 ---
-title: EXTRA: Command-Line Programs
+title: "EXTRA: Command-Line Programs"
 teaching: 30
 exercises: 0
 questions:

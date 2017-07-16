@@ -1,5 +1,5 @@
 ---
-title: EXTRA: Defensive Programming
+title: "EXTRA: Defensive Programming"
 teaching: 30
 exercises: 0
 questions:
